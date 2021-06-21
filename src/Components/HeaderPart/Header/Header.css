@@ -1,0 +1,19 @@
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://www.wanderon.in/triplist/main-cover.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 39, 39, 0.363);
+} */

@@ -1,0 +1,13 @@
+.nav-link-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+.nav-link-item:hover {
+  color: white;
+}
+.nav-logo {
+  z-index: 1;
+  width: 3%;
+}
