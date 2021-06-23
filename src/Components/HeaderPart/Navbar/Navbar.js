@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../../images/icons8-twitter-100.png";
 import logo1 from "../../../images/wanderon-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
