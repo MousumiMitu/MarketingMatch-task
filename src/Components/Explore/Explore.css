@@ -1,0 +1,36 @@
+.service-section {
+  width: 85%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.service-card {
+  position: relative;
+  height: 140px;
+  transition: all 0.5s ease;
+}
+.service-card:hover {
+  transform: scale(1.1);
+}
+.service-img {
+  width: 30%;
+}
+.service-img2,
+.service-img4,
+.service-img5,
+.service-img6 {
+  width: 40%;
+}
+/* .service-img4 {
+  width: 40%;
+} */
+.service-title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: rgb(58, 58, 58);
+}
