@@ -1,26 +1,21 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import SwiperCore, { Navigation } from "swiper/core";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
-import "swiper/components/navigation/navigation.min.css";
-import travel from "../../images/wanderon-spiti-1 (1).jpg";
-import travel1 from "../../images/wanderon-spiti-18.jpg";
-import travel2 from "../../images/wanderon-ladakh-1.jpg";
-import travel3 from "../../images/wanderon-manali-1.jpg";
+import travel from "../../images/wanderon-bir-1.jpg";
+import travel1 from "../../images/wanderon-manali-1 (1).jpg";
+import travel2 from "../../images/wanderon-kasol-1 (1).jpg";
+import travel3 from "../../images/wanderon-bir-1 (1).jpg";
 import travel4 from "../../images/wanderon-parvati-1.jpg";
-import travel5 from "../../images/wanderon-kasol-1.jpg";
-import travel6 from "../../images/wanderon-meghalaya-1.jpg";
+import travel5 from "../../images/wanderon-chopta-1.jpg";
+import travel6 from "../../images/wanderon-tirthan-1.jpg";
 
-import "./TrendingTrips.css";
-
-SwiperCore.use([Navigation]);
-
-const Trendingtrips = () => {
+const WeekedTrips = () => {
   return (
     <div className="my-5  trending-container">
-      <h2>Trending trips</h2>
+      <h2>Weekend Trips</h2>
       <Swiper
         navigation={true}
         slidesPerView={4}
@@ -34,14 +29,14 @@ const Trendingtrips = () => {
             <div className="d-flex justify-content-lg-start">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 5N-6D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 1N-2D
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
                   Delhi
                 </span>
-                <h4>Spiti Summer</h4>
-                <h5>starts at -18,999/</h5>
+                <h4>Bir Billing</h4>
+                <h5>starts at 6,999/-</h5>
               </div>
             </div>
           </div>
@@ -52,14 +47,14 @@ const Trendingtrips = () => {
             <div className="">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 7N-8D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 2N-3D
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
+                  <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />
                   Delhi
                 </span>
-                <h4>Spiti Circuit Biking/Backpa.. </h4>
-                <h5>starts at 26,999/-</h5>
+                <h4>Manali Lahaul Atal Tunnel </h4>
+                <h5>starts at 6,999/-</h5>
               </div>
             </div>
           </div>
@@ -70,14 +65,14 @@ const Trendingtrips = () => {
             <div className="d-flex justify-content-lg-start">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 8N-9D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 2N-3D
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
                   Delhi
                 </span>
-                <h4>Manali Leh Manali </h4>
-                <h5>starts at 35,499/-</h5>
+                <h4>Kasol Kheerganga </h4>
+                <h5>starts at 5,499/-</h5>
               </div>
             </div>
           </div>
@@ -88,14 +83,14 @@ const Trendingtrips = () => {
             <div className="d-flex justify-content-lg-start">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 5N-6D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 2N-3D
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
-                  Guhwahati
+                  Delhi
                 </span>
-                <h4>Meghalaya Backpacking</h4>
-                <h5>starts at 19,499/</h5>
+                <h4>Tirthan Valley</h4>
+                <h5>starts at 6,499/</h5>
               </div>
             </div>
           </div>
@@ -106,14 +101,14 @@ const Trendingtrips = () => {
             <div className="d-flex justify-content-lg-start">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 4N-5D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 2N-3D
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
                   Delhi
                 </span>
-                <h4>Bir Kasol Kheerganga</h4>
-                <h5>starts at 15,999/-</h5>
+                <h4>Chopta Tungnath</h4>
+                <h5>starts at 6,999/-</h5>
               </div>
             </div>
           </div>
@@ -124,32 +119,14 @@ const Trendingtrips = () => {
             <div className="d-flex justify-content-lg-start">
               <div className="slider-info">
                 <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 4N-5D
+                  <FontAwesomeIcon icon={faClock} className="me-1" /> 2N-3D
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
                   Delhi
                 </span>
-                <h4>Kasol Kheerganga Manali</h4>
-                <h5>starts at 14,999/-</h5>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <img src={travel4} alt="" />
-            <div className="d-flex justify-content-lg-start">
-              <div className="slider-info">
-                <span>
-                  <FontAwesomeIcon icon={faClock} className="me-1" /> 4N-6D
-                </span>
-                <span>
-                  <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
-                  Delhi
-                </span>
-                <h4>Parvati Valley</h4>
-                <h5>starts at 14,999/-</h5>
+                <h4>Bir Mcleod Ganj</h4>
+                <h5>starts at 8,999/-</h5>
               </div>
             </div>
           </div>
@@ -159,4 +136,4 @@ const Trendingtrips = () => {
   );
 };
 
-export default Trendingtrips;
+export default WeekedTrips;
