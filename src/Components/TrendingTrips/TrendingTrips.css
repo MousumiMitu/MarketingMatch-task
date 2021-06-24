@@ -60,6 +60,10 @@
   right: -2px;
   top: 120px;
   box-shadow: 2px 2px 5px gray;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover {
+  transform: scale(1.1);
 }
 .swiper-button-next::after {
   display: none;
@@ -76,6 +80,10 @@
   background-position: center;
   top: 120px;
   left: -2px;
+  transition: all 0.3s ease;
+}
+.swiper-button-prev:hover {
+  transform: scale(1.1);
 }
 .swiper-button-prev::after {
   display: none;
@@ -97,3 +105,14 @@
 .svg-icon {
   width: 5%;
 }
+/* .swiper-father {
+  position: relative;
+  padding: 0 37px;
+  width: 100%;
+
+  box-sizing: border-box;
+  border: 1px solid red;
+  box-shadow: 5px 5px solid gray;
+} */
+/* <FontAwesomeIcon icon={faPhoneAlt} className="me-2" />
+                +91-8887756502 */

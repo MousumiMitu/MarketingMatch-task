@@ -3,7 +3,11 @@ import SwiperCore, { Navigation } from "swiper/core";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClock,
+  faMapMarkedAlt,
+  faRupeeSign,
+} from "@fortawesome/free-solid-svg-icons";
 import travel from "../../images/wanderon-bir-1.jpg";
 import travel1 from "../../images/wanderon-manali-1 (1).jpg";
 import travel2 from "../../images/wanderon-kasol-1 (1).jpg";
@@ -36,7 +40,11 @@ const WeekedTrips = () => {
                   Delhi
                 </span>
                 <h4>Bir Billing</h4>
-                <h5>starts at 6,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  6,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -54,7 +62,11 @@ const WeekedTrips = () => {
                   Delhi
                 </span>
                 <h4>Manali Lahaul Atal Tunnel </h4>
-                <h5>starts at 6,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  6,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -72,7 +84,11 @@ const WeekedTrips = () => {
                   Delhi
                 </span>
                 <h4>Kasol Kheerganga </h4>
-                <h5>starts at 5,499/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  5,499/-
+                </h5>
               </div>
             </div>
           </div>
@@ -90,7 +106,11 @@ const WeekedTrips = () => {
                   Delhi
                 </span>
                 <h4>Tirthan Valley</h4>
-                <h5>starts at 6,499/</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  6,499/
+                </h5>
               </div>
             </div>
           </div>
@@ -126,7 +146,11 @@ const WeekedTrips = () => {
                   Delhi
                 </span>
                 <h4>Bir Mcleod Ganj</h4>
-                <h5>starts at 8,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  8,999/-
+                </h5>
               </div>
             </div>
           </div>

@@ -3,7 +3,11 @@ import SwiperCore, { Navigation } from "swiper/core";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClock,
+  faMapMarkedAlt,
+  faRupeeSign,
+} from "@fortawesome/free-solid-svg-icons";
 import "swiper/components/navigation/navigation.min.css";
 import travel from "../../images/wanderon-spiti-1 (1).jpg";
 import travel1 from "../../images/wanderon-spiti-18.jpg";
@@ -37,11 +41,15 @@ const Trendingtrips = () => {
                   <FontAwesomeIcon icon={faClock} className="me-1" /> 5N-6D
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />{" "}
+                  <FontAwesomeIcon icon={faMapMarkedAlt} className="mx-1" />
                   Delhi
                 </span>
                 <h4>Spiti Summer</h4>
-                <h5>starts at -18,999/</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  18,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -59,7 +67,11 @@ const Trendingtrips = () => {
                   Delhi
                 </span>
                 <h4>Spiti Circuit Biking/Backpa.. </h4>
-                <h5>starts at 26,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  26,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -77,7 +89,11 @@ const Trendingtrips = () => {
                   Delhi
                 </span>
                 <h4>Manali Leh Manali </h4>
-                <h5>starts at 35,499/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  35,499/-
+                </h5>
               </div>
             </div>
           </div>
@@ -95,7 +111,11 @@ const Trendingtrips = () => {
                   Guhwahati
                 </span>
                 <h4>Meghalaya Backpacking</h4>
-                <h5>starts at 19,499/</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  19,499/
+                </h5>
               </div>
             </div>
           </div>
@@ -113,7 +133,11 @@ const Trendingtrips = () => {
                   Delhi
                 </span>
                 <h4>Bir Kasol Kheerganga</h4>
-                <h5>starts at 15,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  15,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -131,7 +155,11 @@ const Trendingtrips = () => {
                   Delhi
                 </span>
                 <h4>Kasol Kheerganga Manali</h4>
-                <h5>starts at 14,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  14,999/-
+                </h5>
               </div>
             </div>
           </div>
@@ -149,7 +177,11 @@ const Trendingtrips = () => {
                   Delhi
                 </span>
                 <h4>Parvati Valley</h4>
-                <h5>starts at 14,999/-</h5>
+                <h5>
+                  starts at{" "}
+                  <FontAwesomeIcon icon={faRupeeSign} className="mx-1" />
+                  14,999/-
+                </h5>
               </div>
             </div>
           </div>

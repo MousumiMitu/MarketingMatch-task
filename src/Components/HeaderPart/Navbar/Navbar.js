@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import logo1 from "../../../images/wanderon-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
+  const [navBar, setNavBar] = useState(false);
+
+  const changeNavColor = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 70) {
+      setNavBar(true);
+    } else {
+      setNavBar(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavColor);
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav
+        className={
+          navBar
+            ? "navbar navbar-expand-lg navbar-light navbar-position active-color"
+            : "navbar navbar-expand-lg navbar-light navbar-position"
+        }
+      >
         <div class="container-fluid">
           <img src={logo1} alt="" className="nav-logo" />
           <button
@@ -22,11 +40,11 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <div className="nav-link-item">
+              <div className="nav-link-item phone-icon">
                 <FontAwesomeIcon icon={faPhoneAlt} className="me-2" />
                 +91-8887756502
               </div>
-              <div className="d-flex ">
+              <div className="d-flex me-5">
                 <li class="nav-item">
                   <a class=" nav-link-item " aria-current="page" href="#">
                     Trending trips
