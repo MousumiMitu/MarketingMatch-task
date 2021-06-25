@@ -21,14 +21,14 @@ const Navbar = () => {
       <nav
         className={
           navBar
-            ? "navbar navbar-expand-lg navbar-light navbar-position active-color"
+            ? "navbar navbar-expand-lg navbar-light  navbar-position active-color"
             : "navbar navbar-expand-lg navbar-light navbar-position"
         }
       >
         <div class="container-fluid">
           <img src={logo1} alt="" className="nav-logo" />
           <button
-            class="navbar-toggler"
+            class="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faPhoneAlt} className="me-2" />
                 +91-8887756502
               </div>
-              <div className="d-flex me-5">
+              <div className="d-lg-flex me-5 flex-row ">
                 <li class="nav-item">
                   <a class=" nav-link-item " aria-current="page" href="#">
                     Trending trips
